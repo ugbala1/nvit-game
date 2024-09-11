@@ -3,7 +3,7 @@ pipeline {
     environment {
         DOCKER_HUB_CREDENTIALS = 'dockerhub-repo'
         IMAGE_NAME = 'davidokpe/nvit-game'
-        REPO_URL = 'https://github.com/ugbasawo/nvit-game.git'
+        REPO_URL = 'https://github.com/ugbala1/nvit-game.git'
     }
     stages {
         stage('Git Checkout') {
